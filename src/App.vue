@@ -1,7 +1,12 @@
 <script setup>
-import ListagemProdutos from '@/components/ListagemProdutos.vue';
+import ListagemCategorias from '@/components/ListagemTabelas.vue';
 </script>
 
 <template>
-  <ListagemProdutos />
+  <ListagemCategorias class="lista"/>
 </template>
+<style scoped>
+.lista{
+  background-color: black;
+}
+</style>
