@@ -1,9 +1,12 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import ListagemTabelas from '@/components/ListagemTabelas.vue';
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <ListagemTabelas class="lista"/>
 </template>
+<style scoped>
+.lista{
+  background-color: black;
+}
+</style>
